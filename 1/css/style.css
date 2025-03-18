@@ -27,21 +27,9 @@
 }
 
 .postion{
-    position: absolute;
-    left: 375px;
-    top: 15px;   
+    position: center;
+    
 }
-
-.postion ul ul {
-    border: 1px solid black;
-    border-radius: 10px;
-   background-color: antiquewhite;
-   color: #253339;
-  
-}
-
-
-
 
 .nav ul {
     display: flex;
@@ -1314,10 +1302,11 @@ width: 100%;
 
     .w-30{
         width: 134px;
+        height: 757px;  
     }
 
     .w-30 img{
-         width: 100%; 
+        width: 100%;
         margin-top: 80px;
         margin-left: 40px;
     }

@@ -1,0 +1,74 @@
+a{
+    font-size: 50px;
+}
+
+
+/* a:active{
+    color: green;
+} */
+
+/* a:link{
+        color: yellow;
+    }
+
+a:visited{
+    color: brown;
+}  
+
+
+p:first-child{
+    color: blueviolet;
+    font-size: 50px;
+}
+
+ p:first-of-type{
+    color: aqua;
+} 
+
+p:last-child{
+    color: green;
+}
+
+p:last-of-type{
+    color: violet;
+}
+
+p:nth-child(8){
+    color: blue;
+} */
+
+/* p:nth-of-type(2){
+    color: coral;
+} */
+
+/* p:nth-last-child(2){
+    color: cadetblue;
+}
+
+p:nth-last-of-type(4){
+    color: springgreen;
+} */
+
+/* p:only-child{
+    color: brown;
+}
+
+p:only-of-type{
+    color: burlywood;
+} */
+
+p:first-letter{
+    color: brown;
+    font-size: 50px;
+}
+
+P::first-line{
+    color: blue;
+}
+
+p::selection{
+    color: red;
+}
+
+
+
