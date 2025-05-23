@@ -1,0 +1,775 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-1140
+{
+    width: 1140px;
+    margin: auto;
+
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.logo{
+    width: 12%;
+    margin-top: 20px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+
+.navbar ul {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.navbar ul li:hover{
+    color: #ff770f;
+}
+
+.navbar ul li a{
+    background-color: #ff770f;
+    padding: 16px 40px;
+    color: white;
+    border-radius: 30px;
+}
+
+.slider-sec{
+    background-image: url("https://websitedemos.net/italian-restaurant-02/wp-content/uploads/sites/283/2020/01/fresco-pizza-top.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    background-repeat: no-repeat;
+    position:relative;
+    display: flex;
+     justify-content: center; 
+}
+
+.slider-sec::after{
+    content: "";
+    background-color: black;
+     position: absolute; 
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.5;
+    height: 100%;
+    
+}
+
+.slider-sec ul h1{
+    font-size: 160px;
+    color: white;
+     text-align: center; 
+    font-family: "Berkshire Swash", serif;
+    z-index: 1;
+    position: relative; 
+}
+
+.slider-sec ul h3{
+    color: #ff770f;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    z-index: 1;
+    position: relative;
+}
+
+.slider-sec ul h4{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1;
+    position: relative;
+    margin-top: 50px;
+}
+
+.slider-sec ul{
+    padding-top: 400px;
+    padding-bottom: 250px;
+}
+
+.spoon-png{
+    position: absolute;
+    top: 345px;
+    left: 100px;
+    z-index: 1;
+}
+
+.cutter{
+    position: absolute;
+    top: 345px;
+    right: 100px;
+    z-index: 1;
+}
+
+.design{
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    left: 500px;
+}
+
+h4::after{
+    content: "";
+    border: 1px solid white;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+   right: 156px;
+   margin-top: 15px;
+}
+
+h4::before{
+    content: "";
+    border: 1px solid white;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+   margin-top: 15px;
+   right: 780px;
+     
+}
+
+
+.hero-sec{
+    background-image: url("https://websitedemos.net/italian-restaurant-02/wp-content/uploads/sites/283/2018/09/pic28-free-img.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+     background-attachment: fixed;
+   
+ 
+}
+
+.pizz-cor{
+    display: flex;
+    justify-content: space-between;
+}
+
+h5{
+    font-size: 20px;
+    font-family: "Berkshire Swash", serif;
+   
+}
+
+.pizz-dec{
+     margin-top: 200px; 
+}
+
+
+.pizz-dec span{
+    font-size: 40px;
+    padding-top: 20px;
+    display: block;
+    font-family: "Berkshire Swash", serif;
+}
+
+.pizz-dec ul li{
+    padding-top: 20px;
+    font-size: 28px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+.pizz-dec p{
+    padding-top: 30px;
+   color: #313338;
+   line-height: 25px;
+}
+
+.pizz-dec a{
+    background-color: #ff770f;
+    padding: 10px 30px;
+    color: white;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 30px;
+     
+}
+
+.pizz-dec a i{
+    margin-right: 10px;
+}
+
+.silde-one{
+    margin-top: 250px;
+    width: 310px;
+    height: 408px;
+}
+
+.silde-one img{
+    width: 100%;
+}
+
+.silde-two{
+    background-image: url("https://websitedemos.net/italian-restaurant-02/wp-content/uploads/sites/283/2019/12/food-table-meet.jpg;");
+    width: 363px;
+     height: 458px; 
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    position: relative;
+}
+
+.silde-two::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+
+.silde-two span{
+ display: flex;
+ justify-content: center;
+padding: 150px 40px 20px;
+ font-size: 43px;
+ font-family: "Berkshire Swash", serif;
+ color: white;
+ margin-top: 150px;
+}
+
+
+.silde-two p{
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.our-menu{
+    position: relative;
+}
+
+.our-menu img{
+ position: absolute;
+ top: 130px;
+ left: 515px;
+}
+
+.our-menu ul a{
+    font-size: 35px;
+    font-family: "Berkshire Swash", serif;
+   color: black;
+   display: flex;
+   justify-content: center;
+   padding-top: 230px;
+}
+
+.our-menu span{
+    font-family: "Raleway", sans-serif;
+    display: flex;
+   justify-content: center;
+   font-size: 25px;
+   font-weight: 600;
+   margin-top: 30px;
+}
+
+.our-menu p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+ .fontina{
+    border: 1px solid #ff770f;
+    width: calc(33% - 14px);
+    height: 300px;
+    background-color: white;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.fontina span{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.fontina p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.fontina ul li{
+    font-family: "Raleway", sans-serif;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+.fontina ul{
+    text-align: center;
+}
+  
+.our-menu-sec{
+    background-image: url("https://websitedemos.net/italian-restaurant-02/wp-content/uploads/sites/283/2020/01/dine-out.jpg");
+     margin-top: 100px; 
+    background-repeat: no-repeat; 
+}
+
+.our-menu-sec .wraper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.burgar{
+    width: calc(33% - 14px);
+    height: 250px;
+     margin-top: -70px;  
+}
+
+.burgar img{
+    width: 350px;
+}
+
+.dish-two{
+    border: 1px solid #ff770f;
+    width: calc(33% - 14px);
+    height: 300px;
+    background-color: white;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+}
+
+.dish-two span{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.dish-two p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.dish-two ul li{
+    font-family: "Raleway", sans-serif;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+.dish-two ul{
+    text-align: center;
+}
+
+
+.italian{
+    width: calc(33% - 14px);
+    height: 250px;   
+}
+
+.italian img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.dish{
+    border: 1px solid #ff770f;
+    width: calc(33% - 14px);
+    height: 310px;
+    background-color: white; 
+}
+
+.dish span{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.dish p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.dish ul li{
+    font-family: "Raleway", sans-serif;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+.dish ul{
+    text-align: center;
+}
+
+
+.delle{
+    width: calc(33% - 14px);
+    height: 250px; 
+}
+
+.delle img{
+    width: 100%;
+    object-fit: cover;
+    display: block; 
+}
+
+
+.paneer-dish{
+    border: 1px solid #ff770f;
+    width: calc(33% - 14px);
+    height: 310px;
+    background-color: white;
+}
+
+.paneer-dish span{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.paneer-dish p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.paneer-dish ul li{
+    font-family: "Raleway", sans-serif;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+.paneer-dish ul{
+    text-align: center;
+}
+
+.Crumbled{
+    width: calc(33% - 14px);
+     height: 250px;  
+}
+
+.Crumbled img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.Baked{
+    border: 1px solid #ff770f;
+    width: calc(33% - 14px);
+    height: 310px;
+    background-color: white; 
+}
+
+.Baked span{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.Baked p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.Baked ul li{
+    font-family: "Raleway", sans-serif;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+.Baked ul{
+    text-align: center;
+}
+
+
+.discover-button ul li{
+    padding: 10px 20px;
+    background-color: #ff770f;
+    color: white;
+    border-radius: 20px;  
+}
+
+
+.discover-button ul{
+    display: inline-block;
+}
+
+.discover-button {
+    display: flex;
+    justify-content: center;
+     margin-top: 100px; 
+     padding-bottom: 100px;
+}
+
+.discover-button ul i{
+    margin-right: 10px;
+}
+
+
+.good-wine{
+    display: flex;
+    justify-content: space-between;
+} 
+
+ .wed-img{
+     background-image: url("https://websitedemos.net/italian-restaurant-02/wp-content/uploads/sites/283/2018/09/pic34-free-img.jpg");
+    width: 500px;
+    height: 350px;
+    background-size: cover;
+    margin-top: 150px;
+}
+
+.wed-img ul li{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Berkshire Swash", serif;
+    padding-top: 300px;
+    font-size: 20px;
+}
+
+
+.wed-menu h3 {
+    font-size: 25px;
+    font-family: "Berkshire Swash", serif;
+    margin-top: 150px;
+    margin-right: 350px;
+}
+
+.wed-menu span{
+    font-family: "Berkshire Swash", serif;
+    font-size: 40px;
+    padding-top: 15px;
+    display: block;
+}
+
+.wed-menu ul li{
+    padding-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.wed-menu ul p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.dis-off a{
+    padding: 10px 30px;
+    background-color: #d86208;
+    color: white;
+    display: inline-block;
+    margin-top: 35px;
+    border-radius: 20px;
+
+}
+
+.dis-off i{
+    margin-right: 10px;
+}
+
+.cus-one img{
+    margin-top: 300px;
+}
+
+.cus-one ul li{
+  font-size: 42px;
+  font-family: "Berkshire Swash", serif;
+  margin-top: 15px;
+}
+
+.cus-img{
+    background-image: url("https://websitedemos.net/italian-restaurant-02/wp-content/uploads/sites/283/2018/10/pic49-free-img.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 120px;
+    margin-top: 50px;
+}
+
+.cus-des p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Berkshire Swash", serif;
+}
+
+.cus-des span{
+    margin-top: 30px;
+    display: block;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+
+.happy-cus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cus-two ul img{
+    padding-top: 80px;
+    padding-right: 450px;
+}
+
+.cus-two ul p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Berkshire Swash", serif;
+}
+
+.cus-two ul span{
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    display: block;
+}
+
+.social span{
+    margin-top: 30px;
+    display: block;
+    font-family: "Berkshire Swash", serif;
+    font-size: 20px;
+}
+
+.social-icon ul {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon ul li{
+   background-color: #d86208;
+   color: white;
+   padding: 10px 10px;
+   border-radius: 100%;
+   margin-top: 30px;
+}
+
+.footer-img{
+    background-image: url("https://websitedemos.net/italian-restaurant-02/wp-content/uploads/sites/283/2021/01/Prepare-dish-image.jpg");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.footer-dec span{
+    font-family: "Berkshire Swash", serif;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.footer-dec h3{
+    font-family: "Berkshire Swash", serif;
+    color: white;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    font-size: 43px;
+    margin-top: 30px;
+    font-weight: lighter;
+}
+
+.footer-dec ul li{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+https://websitedemos.net/italian-restaurant-02/?customize=template

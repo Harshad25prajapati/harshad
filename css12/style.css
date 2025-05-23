@@ -1,0 +1,333 @@
+
+
+ /* <!-- =======menubar start =========== --> */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+}
+
+
+.background-pic{
+    background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h2-page-background-img.jpg");
+    background-position: 0px 0px;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 3000px;
+}
+
+.background-pic .back-color{
+     background-color: white; 
+}
+
+.background-pic .back-color .logo ul li{
+ width: 100%;
+}
+
+.background-pic .back-color .logo ul li img{
+    width: 205px;
+    height: 25px;
+}
+
+.serch-button ul li{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+     font-weight: 600;
+} 
+
+.serch-button ul li i{
+    font-size: 17px;
+}
+
+
+.menubar .menu li{
+    font-size: 14px;
+    margin-left: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.cart li {
+    font-size: 14px;
+    letter-spacing: 2px;
+     font-weight: 600;
+}
+
+
+
+ /* <!-- =======menubar end =========== --> */
+
+ /* <!-- ========= hero-sec start==============  --> */
+
+
+ .background-pic .back-color .silder{
+    background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h2-slide-1.jpg");
+    width: 100%;
+    height: 500px;
+    object-fit:cover;
+    background-repeat: no-repeat;
+  
+ }
+
+.silder-des  li{
+ margin-top: 250px;
+ font-size: 40px;
+ text-align: center;
+ margin-left: 58px;
+}
+
+.silder h4{
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    margin-left: 45px;
+}
+
+.flowers-img{
+    width: 100%;
+}
+
+.flowers-img img{
+    width: 158px;
+    height: 158px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.flowers-img h6{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.flowers-img h5{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+ /* <!-- ========= hero-sec end==============  --> */
+
+    /* <!-- =============main section start========= --> */
+
+ .main-sec-silde{
+    background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h2-testimonials-background-img.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+
+ }
+
+  .main-sec-silde .cracter-img{
+    margin-top: 70px;
+  }
+
+   .main-sec-silde .name li{
+    letter-spacing: 1px;
+    font-weight: 400;
+   }
+
+   .categroy{
+    letter-spacing: 2px;
+   }
+
+   .categroy-dep .categroy-des li{
+    letter-spacing: 3px;
+    margin-left: 25px;
+    margin-top: 10px;
+   }
+
+    .categroy-dep .first-des li{
+        letter-spacing: 2px;
+        margin-top: 10px;
+    }
+
+     .categroy-dep .second-des{
+        letter-spacing: 3px;
+        margin-top: 10px;
+        margin-left: 30px;
+     }
+
+
+    .categroy-dep .third-des{
+        letter-spacing: 3px;
+        margin-top: 10px;
+       
+    }
+
+    .categroy-dep .first-price{
+        margin-left: 100px;
+    }
+
+
+      .categroy-dep .second-price{
+        margin-left: 80px;
+    }
+
+       .categroy-dep .third-price{
+        margin-left: 110px;
+    }
+
+        .categroy-dep .four-price{
+        margin-left: 110px;
+    }
+
+     .categroy-dep .new{
+        background-color: #F34F3F;
+        padding: 5px 10px 5px 10px;
+        display: inline-block;
+        font-size: 16px;
+        color: white;
+     }
+
+
+     .flower-des{
+        font-size: 35px;
+        letter-spacing: 1px;
+     }
+
+     .flower-des span{
+        color:#F34F3F ;
+     }
+
+       /* <!-- =============main section end========= --> */
+
+
+
+       /* <!-- ===========footer start======================= --> */
+
+
+     .footer-title h1{
+        text-align: center;
+        margin-top: 100px;
+        font-size: 30px;
+        margin-bottom: 19px;
+     }
+
+    
+     
+     
+     .email-box .email{
+        padding: 10px 140px 10px 10px;
+        font-size: 14px;
+        margin-left: 285px;
+     }
+
+      .subscribe h6{
+        padding: 14px 10px 14px 10px ;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 315px;
+      }
+
+
+      .last-sec .service h6{
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-left: 32px;
+        margin-bottom: 25px;
+      }
+
+      .last-sec .service ul li{
+        font-size: 12px;
+        letter-spacing: 2px;
+      }
+
+       .last-sec .service ul li:hover{
+       color: #F34F3F;
+       cursor: pointer;
+      }
+
+         .last-sec .company h6{
+        font-size: 13px;
+        letter-spacing: 1px;
+         margin-left: 32px;
+         margin-bottom: 25px;
+      }
+       .last-sec .company ul li{
+        font-size: 12px;
+        letter-spacing: 2px;
+      }
+        .last-sec .company ul li:hover{
+       color: #F34F3F;
+       cursor: pointer;
+      }
+
+         .last-sec .media h6{
+        font-size: 13px;
+        letter-spacing: 1px;
+         margin-left: 32px;
+         margin-bottom: 25px;
+      }
+
+        .last-sec .media ul li{
+        font-size: 12px;
+        letter-spacing: 2px;
+      }
+          .last-sec .media  ul li:hover{
+       color: #F34F3F;
+       cursor: pointer;
+      }
+
+
+
+           .last-sec .archive h6{
+        font-size: 13px;
+        letter-spacing: 1px;
+         margin-left: 32px;
+         margin-bottom: 25px;
+      }
+
+         .last-sec .archive ul li{
+        font-size: 12px;
+        letter-spacing: 2px;
+      }
+
+          .last-sec .archive  ul li:hover{
+       color: #F34F3F;
+       cursor: pointer;
+      }
+
+
+      .last-line ul li{
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-top: 100px;
+      }
+
+      .last-img img{
+        margin-top: 100px;
+        margin-left: 50px;
+      }
+
+      .last-line ul li span:hover{
+        color: #F34F3F;
+       cursor: pointer;
+      }
+     
+      .social ul li {
+        margin-top: 100px;
+        letter-spacing: 2px;
+        font-size: 13px;
+      }
+      
+      .social ul li:hover{
+        color: #F34F3F;
+       cursor: pointer;
+      }
+      
+      .social ul{
+       gap: 20px;
+      }
+
+
+      https://fiorello.qodeinteractive.com/grid-home/

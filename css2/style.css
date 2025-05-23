@@ -14,7 +14,8 @@
 }
 .flex{
      display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
 }
 
 .just-space-between{
@@ -32,6 +33,13 @@ header .header{
 }
 .header-lang ul li img{
     margin-right: 5px;  
+}
+
+.header-coloum{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -62,9 +70,15 @@ header .header-center .w-10 img{
     width: 100%;
     display: block;
 }
+
+.header-center .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 header .header-center .w-80{
     width: 50%;
-    margin: auto;
     background: #ddd;
     display: flex;
     column-gap: 10px;
@@ -73,7 +87,7 @@ header .header-center .w-80{
 }
 
 header .header-center .w-80 .header-center-search{
-    width: 80%;
+    width: 70%;
     border-left: 1px solid #888888;
     padding-left: 10px;
     position: relative;
@@ -92,7 +106,7 @@ header .header-center .w-80 .header-center-search input{
     border-radius: 5px;
      position: absolute;
      top: -8px;
-    right: -7px;
+    right: -55px;
     display: inline-block; 
 }
 header .header-right ul{
@@ -106,6 +120,11 @@ header .header-right ul li {
 header .header-top-left .header-lang-order{
     border-left: 1px solid black;
      padding-left: 10px; 
+}
+
+.header-lang-order .order-row{
+    display: flex;
+    gap: 20px;
 }
 
 header .nav-80{
@@ -194,8 +213,8 @@ header .header-top-left .header-lang{
 
  .header-lang {
     display: flex;
-        gap: 10px;
-        align-items: center;
+    gap: 10px;
+    align-items: center;
  }
 
  .header-lang h3{
@@ -207,7 +226,7 @@ header .header-top-left .header-lang{
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 1px 8px 8px rgb(112, 109, 109);
-    position: absolute;
+     position: absolute; 
     background-color: white;
     
  }
@@ -333,6 +352,12 @@ header .header-top-left .header-lang{
  .fashtioncream {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+ }
+ 
+ .fashtioncream .creamone{
+    width: calc(20% - 7px);
  }
 
  .Vichy {
@@ -359,6 +384,16 @@ header .header-top-left .header-lang{
     font-size: 15px;
  }
 
+ .order li span{
+    display: block;
+}
+
+.order li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
  .Eucerin {
     background-color:#ff6900;
     border-radius: 0px 90px 0 80px;
@@ -382,6 +417,18 @@ header .header-top-left .header-lang{
     background-color: #FAE9EC;
     font-size: 15px;
  }
+
+ .shipping li span{
+    display: block;
+    font-size: 20px;
+}
+
+.shipping li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 
   .LaRochePosay {
     background-color:#f78da7;
@@ -408,6 +455,15 @@ header .header-top-left .header-lang{
     font-size: 15px;
  }
 
+ .free li span{
+    display: block;
+}
+
+.free li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 
   .Cerave{
     background-color:#7ad03a;
@@ -432,6 +488,18 @@ header .header-top-left .header-lang{
     background-color: #FAE9EC;
     font-size: 15px;
  }
+
+ .return li span{
+    display: block;
+     font-size: 20px; 
+}
+
+.return li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 
  .deals{
     display: flex;
@@ -501,6 +569,7 @@ header .header-top-left .header-lang{
 .facepowder{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .icon ul li{
@@ -673,7 +742,7 @@ header .header-top-left .header-lang{
     }
 
     .effect-one{
-        background-color: #ffffff;
+      background-color: #ffffff;
       width: 100%;
       height: 300px;
       position: absolute;
@@ -707,9 +776,9 @@ header .header-top-left .header-lang{
         left: 0px; 
         opacity: 0.5;
         transition: 5s;
-    animation-name: demo2;
-      animation-duration: 2s;
-       animation-iteration-count:infinite ;
+        animation-name: demo2;
+        animation-duration: 2s;
+        animation-iteration-count:infinite;
 
        
     }
@@ -735,7 +804,7 @@ header .header-top-left .header-lang{
         margin-top: 20px;
     }
 
-    .shopnowone:hover{
+     .shopnowone:hover{ 
         background-color: white;
         color: #000;
     }
@@ -850,7 +919,8 @@ header .header-top-left .header-lang{
 
     .product{
         display: flex;
-        justify-content: space-between;   
+        justify-content: space-between;
+        flex-wrap: wrap;   
     }
 
     .cardone{
@@ -913,6 +983,7 @@ header .header-top-left .header-lang{
         display: flex;
         justify-content: space-between;
         margin-bottom: 100px;
+        flex-wrap: wrap;
     }
 
     .setmakup{
@@ -931,7 +1002,7 @@ header .header-top-left .header-lang{
         border-radius: 10px;
         margin-bottom: 90px;
         padding-top: 30px;
-        padding-left: 20px;
+         padding-left: 20px; 
     }
 
     .iteams{
@@ -1054,9 +1125,6 @@ header .header-top-left .header-lang{
         padding: 10px 10px 10px 10px;                         
     }
 
-    
-    
-
     .email-box ul li i{
         margin-left: 200px;
     }
@@ -1150,4 +1218,19 @@ header .header-top-left .header-lang{
    }
 
 
+   .creamone:nth-child(2) .Vichy {
+    background-color:#ffba00 ;
+
+   }
+
+   .creamone:nth-child(3) .Vichy {
+    background-color:#cf2e2e;
+
+   }
+
+   
+   .creamone:nth-child(4) .Vichy {
+    background-color:rgb(113, 206, 126);
+    
+   }
 

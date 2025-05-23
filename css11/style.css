@@ -1,0 +1,787 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+/* <!-- =========== title start============ --> */
+
+.w-100{
+    width: 100%;
+}
+
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #C9A581;
+}
+
+.date-time{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title .date-time .date ul li{
+  color: #cecece;
+  margin-top: 20px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+}
+
+.title .date-time .time ul li{
+   color: #cecece;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 400;
+   font-family: "Jost", sans-serif;
+     font-size: 17px;  
+}
+
+.title .place{
+    color: #cecece;
+    margin-top: 20px;
+      font-size: 17px;
+      font-family: "Jost", sans-serif;
+}
+
+/* <!-- =========== title end============ --> */
+
+
+
+ /* <!-- =========== menubar start============ --> */
+
+.menubar{
+   display: flex;
+   justify-content: space-between;
+    border-bottom: 1px solid #C9A581;
+}
+
+.menubar .table-book ul li{
+      color: white;
+      font-family: "Jost", sans-serif;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 3px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+}
+
+.logo img{
+    width: 170px;
+    margin-top: 20px;
+}
+
+
+
+
+.menubar .sub-menu ul li{
+     color: white;
+      font-family: "Jost", sans-serif;
+      margin-top: 35px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.menubar .sub-menu ul li i{
+    margin-left: 10px;
+}
+
+
+ /* "<!-- =========== menubar end============ -->" */
+
+
+ /* ============hero sec start================= */
+
+
+ .hero-sec{
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+ .first-pic img{
+    width: 250px;
+    margin-top: 60px;
+    border-radius: 200px 200px 0px 0px;
+ }
+
+ .second-pic img{
+    width: 250px;
+    margin-top: 60px;
+    border-radius: 200px 200px 0px 0px;
+ }
+
+  .third-pic img{
+    width: 250px;
+    margin-top: 60px;
+    border-radius: 200px 200px 0px 0px;
+ }
+
+  .four-pic img{
+    width: 250px;
+    margin-top: 60px;
+    border-radius: 200px 200px 0px 0px;
+ }
+
+
+ .garden h1{
+   color: #C9A581;
+   font-size:90px ;
+   font-family: "Forum", serif;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-weight: 300;
+   margin-top: 70px;
+ }
+
+  .garden h5{
+    color: white;
+   font-family: "Jost", sans-serif; 
+   text-transform: uppercase;
+   font-size: 17px;
+   display: flex;
+   justify-content: center;
+   font-weight: 350;
+   letter-spacing: 3px;
+  }
+
+
+   /* ============hero sec end=================  */
+
+
+   /* ==========about sec start============== */
+
+
+   .person-det{
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .back-color{
+     background-color: #070E22;
+    width: 100%;
+    height: 500px;
+    margin-top:200px;
+   }
+
+
+   .person-det ul li img{
+    width: 100%;
+    height: 600px;
+    margin-top: -80px;
+    object-fit: cover;
+    border-radius: 200px 0px 200px 0px;
+   }
+
+   
+   .person-info h1{
+    color: #C9A581;
+    font-family: "Forum", serif;
+    font-size: 70px;
+    font-weight: 300;
+    margin-top: 90px;
+   }
+
+    .person-info p{
+        color: #cecece;
+         font-family: "Jost", sans-serif;
+         margin-top: 20px; 
+         font-size: 20px;
+    }
+
+    .menu-pic img{
+        margin-top: 400px;
+        border-radius: 0px 100px 0px 100px;
+        width: 200px;
+      
+    }
+
+  /* ==========about sec end============== */
+
+
+  /* <!-- =========== explore sec start====================  --> */
+
+
+  .explore-sec h3{
+    color: white;
+    font-size: 14px;
+     font-family: "Jost", sans-serif;
+     text-transform: uppercase;
+     font-weight: 400;
+     letter-spacing: 3px;
+     display: flex;
+     justify-content: center;
+     margin-top: 185px;
+     border-bottom: 1px solid #C9A581;
+     padding-bottom: 25px;
+    
+  }
+
+
+  .explore-sec span{
+     color: white;
+    font-size: 40px;
+     font-family: "Forum", serif;
+     text-transform: uppercase;
+     font-weight: 400;
+     display: flex;
+     justify-content: center;
+     border-bottom: 1px solid #C9A581;
+     padding-bottom: 25px;
+    padding-top: 20px; 
+  }
+
+    .explore-sec{
+     position: relative;
+    }
+
+
+.explore-dish ul li img{
+  position: absolute;
+  top: -40px;
+  left: 230px;
+  width: 130px;
+  height: 195px;
+  border-radius: 100px 100px 100px 100px;
+  animation: demo 5s linear infinite ;
+  transform:translatey(-50px) ;
+  transition: 5s;
+}
+
+@keyframes demo{
+    0%{
+        transform: translatey(-20px);
+    }
+    50%{
+        transform: translatey(0%);
+    }
+    100%{
+        transform: translatey(-20px);
+    }
+    
+}
+
+
+.explore-dish-one ul li img{
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  width:161px ;
+  height: 108px;
+  border-radius: 100px 0px 100px 0px;
+  animation: demo 5s linear infinite ;
+  transform:translateY(-50px) ;
+  transition: 5s;
+}
+
+@keyframes demo{
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+    
+}
+
+
+.mock-drink ul li img{
+   position: absolute;
+  bottom: 115px;
+  right: 140px;
+  width:130px ;
+  height: 195px;
+  border-radius: 100px 0px 100px 0px;
+  animation: demo 5s linear infinite ;
+  transform:translateY(-50px) ;
+  transition: 5s;
+}
+
+@keyframes demo{
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+    
+}
+
+.view-button a{
+  color: white;
+  font-weight: 350;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 2px;
+  margin-top: 100px;
+  border: 1px solid #C9A581;
+  display: inline-block;
+  padding: 10px 30px 10px 30px;
+  margin-left: 450px;
+  text-transform: uppercase;
+  font-size: 13px;
+
+}
+
+.view-button a:hover{
+  transform: rotate(5deg);
+  transition: 1s;
+}
+
+/* <!-- =========== explore sec end====================  --> */
+
+
+/* <!-- ===============instagram sec start================== --> */
+
+
+
+.instagram-sec{
+  background-color: #070E22;
+  width: 100%;
+  height: 1200px;
+  margin-top: 80px;
+}
+
+.instagram-sec h1{
+  display: flex;
+  justify-content: center;
+ color: #C9A581;
+ font-size: 80px;
+ font-family: "Forum", serif;
+ font-weight: 350;
+ padding-top: 90px;
+}
+
+.instagram-sec h3{
+  display: flex;
+  justify-content: center;
+ color: white;
+font-family: "Jost", sans-serif;
+ font-weight: 350;
+ letter-spacing: 3px;
+ text-transform: uppercase;
+ font-size: 16px;
+ margin-top: 20px;
+}
+
+
+.instagram-pic-sec{
+  display: flex;
+  justify-content: space-between;
+}
+
+.instagram-pic-sec .instagram-pic ul li img{
+  width: 100%;
+  height: 300px;
+  margin-top: 80px;
+  border-radius: 100px 100px 0px 0px;
+}
+
+
+.custmore-sec h1{
+  display: flex;
+  justify-content: center;
+ color: #C9A581;
+ font-size: 80px;
+ font-family: "Forum", serif;
+ font-weight: 350;
+ padding-top: 90px;
+}
+
+
+.custmore-sec h3{
+  display: flex;
+  justify-content: center;
+ color: white;
+font-family: "Jost", sans-serif;
+ font-weight: 350;
+ letter-spacing: 3px;
+ text-transform: uppercase;
+ font-size: 16px;
+ margin-top: 15px;
+}
+
+.custmore-rev-sec{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.custmore-rev-sec .custmore-rev{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.custmore-rev-sec .custmore-rev h4{
+  color: #C9A581;
+  font-size: 32px;
+   font-family: "Aguafina Script", cursive;
+   letter-spacing: 3px;
+   font-weight: 300;
+
+}
+
+.custmore-rev-sec .custmore-rev p{
+ color: white;
+ font-size: 15px;
+ font-family: "Jost", sans-serif;
+ font-weight: 350;
+}
+
+.custmore-rev-sec .custmore-rev h5{
+  color: white;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+
+/* <!-- ===============instagram sec end================== --> */
+
+
+/* ====================reservation sec start======================= */
+
+
+
+.reservation-sec{
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservation-sec .main-dish ul li img{
+ width: 580px;
+ height: 1200px;
+ position: relative;
+}
+
+.reservation-sec .reservation-dec h1{
+  color: #C9A581;
+  font-size: 80px;
+   font-family: "Forum", serif;
+   font-weight: 350;
+   margin-top: 270px;
+   margin-right: 190px;
+}
+
+.name-det{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.name-det .your-name h6{
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.name-det .your-name .name{
+  border: 1px solid #ffffff73 ;
+  padding: 15px 40px 15px 40px;
+  margin-top: 10px;
+  background: none;
+}
+
+.name-det .your-email h6{
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-right: 230px;
+}
+
+
+.name-det .your-email .email{
+  border: 1px solid #ffffff73 ;
+   padding: 15px 40px 15px 40px;
+  margin-top: 10px;
+  margin-right: 50px ;
+  background: none;
+}
+
+.phone-det .phone-num h6{
+    color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-right: 230px;
+}
+
+.phone-det .phone-num .phone{
+    border: 1px solid #ffffff73 ;
+   padding: 15px 40px 15px 40px;
+  margin-top: 10px;
+  background: none;
+ 
+}
+
+.phone-det{
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-sec h6{
+  margin-top: 25px;
+    color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+  letter-spacing: 1px;
+
+}
+
+
+ .phone-det .select-sec select{ 
+  padding: 12px 32px 12px 32px;
+  margin-top: 10px;
+  background: none;
+  color: white;
+ border: 1px solid #ffffff73;
+ margin-right: 50px;
+}
+
+
+.guest-number{
+  display: flex;
+  justify-content: space-between;
+}
+
+.guest-number .age-opetion h6{
+    margin-top: 25px;
+    color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+  letter-spacing: 1px;
+}
+
+.guest-number .age-opetion select{
+  padding: 15px 30px 15px 30px;
+  margin-top: 10px;
+  margin-right: 20px;
+  background: none;
+  color: white;
+    border: 1px solid #ffffff73;
+}
+
+.guest-number .date-event h6{
+      margin-top: 25px;
+    color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+  letter-spacing: 1px;
+  margin-right: 160px;
+}
+
+.guest-number .date-event .calender{
+    padding: 15px 90px 15px 55px;
+  margin-top: 10px;
+  margin-right: 20px;
+  background: none;
+  color: white;
+  border: 1px solid #ffffff73;
+}
+
+
+.reservation-dec .submit-button h6{
+  color: white;
+  margin-top: 60px;
+  border: 2px solid #C9A581;
+  display: inline-block;
+  padding: 15px 30px 15px 30px;
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+.reservation-dec .submit-button h6:hover{
+  transform: rotate(5deg);
+  transition: 1s;
+}
+
+.social-icon ul{
+  display: flex;
+  color: white;
+  gap: 25px;
+  margin-top: 25px;
+ 
+}
+
+.social-icon ul li{
+   border: 1px solid white;
+   padding: 10px;
+   border-radius: 100%;
+   
+}
+
+.social-icon ul li i:hover{
+transform: rotate(360deg);
+ transition: 1s;
+ color: #C9A581;
+}
+
+.follow h6{
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 60px;
+}
+
+
+.reservation-dec .r-number h6{
+  color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.reservation-dec .r-number h3{
+      color: #CECECE;
+    font-family: "Forum", Sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+
+    /* ====================reservation sec end======================= */ 
+
+
+    /* ===========footer sec start================= */
+
+
+
+    .footer-sec{
+      display: flex;
+      justify-content: space-around;
+    }
+
+     .footer-sec .lunch h4{
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 80px;
+     }
+
+       .footer-sec .lunch h5{
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 5px;
+       }
+
+
+      .footer-sec .dinner h4{
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 80px;
+     } 
+     
+     
+      .footer-sec .dinner h5{
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 5px;
+       }
+
+   
+      .footer-sec .buffet h4{
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 80px;
+     }
+     
+     
+     
+      .footer-sec .buffet  h5{
+    color: #FFFFFF;
+    font-family: "Jost", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 5px;
+       }
+
+
+    .last-logo ul li{
+      width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 1px solid #C9A581;
+    border-top: 1px solid #C9A581;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+    
+  
+    .last-logo ul li img{
+      width: 170px;
+      height: 54px;
+    }
+
+   
+
+    .last-sec {
+     display: flex;
+     justify-content: space-between;
+    }
+
+
+       .last-sec h6{
+        font-size: 16px;
+        font-family: "Jost", Sans-serif;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin-top: 30px;
+       }

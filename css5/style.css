@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-1140{
+   width: 1140px;
+   margin: auto;
+}
+
+.contect-info{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cddbf2;
+    padding: 10px; 
+}
+
+.lany-sub{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lany-sub li a{
+   margin-right: 20px;
+}
+
+.contect span{
+    color: #0a4db8;
+}
+
+.offer ul li{
+    color: #0559e1;  
+}
+
+.logo h1{
+    margin-top: 10px;
+    font-weight: lighter;
+    color:#2d465e ;
+}
+
+.logo-dep{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(185, 182, 182);
+   padding: 20px;
+
+}
+
+.icon ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    gap: 30px;
+    font-size: 20px;  
+}
+
+.serch-butoon .input {
+    border-radius: 30px;
+   padding-top: 20px;
+   padding-right: 200px;
+   padding-bottom: 20px;
+   padding-left: 10px;
+   position: relative;
+  
+}
+
+.serch-butoon{
+    margin-top: 10px;
+}
+
+
+.button-one{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color:#0559e1;
+    color: white;
+    position: absolute;
+    top: 77px;
+    right: 530px;
+}
+
+.menu-sub ul {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(210, 207, 207);
+    padding-bottom: 20px;
+    position: absolute;
+    gap: 46px;
+}
+
+.menu-sub span{
+    color: #0559e1;
+}
+
+.menu-sub ul li:hover{
+    color: #0559e1;
+}
+
+.menu-sub ul ul {
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    box-shadow:0 0 10px black ;
+    color: black;
+    cursor: pointer;  
+}
+
+.menu-sub ul ul li:hover{
+    color: #0559e1;  
+}
+
+.menu-sub ul :hover ul {
+    display: block;
+    z-index: 1;
+}
+.menu-sub ul ul li{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.menu-sub ul ul li ul{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    position: absolute;
+    left: -193px;
+    top: -15px;
+}
+
+.menu-sub ul ul li:hover ul{
+    display: block;
+}
+
+.main-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Stylish-sec h6{
+    border-radius: 20px;
+    background-color: #a1b5d4;
+    color: #0559e1;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.Stylish-sec h1{
+    font-size: 56px;
+    margin-top: 20px;
+    color: #2d465e;
+}
+
+.Stylish-sec h1 span{
+    color:#0a4db8;
+    border-bottom: 8px solid  #8fb7f3;
+}
+
+.Stylish-sec p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: rgb(92, 89, 89);
+}
+
+
+.shop-now ul{
+    background-color: #0559e1;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #0559e1;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.shop-now ul:hover{
+    background-color: #053d96;
+}
+
+
+
+.butoons{
+    display: flex;
+    justify-content: start;
+}
+
+.view ul{
+    display: inline-block;
+    padding: 10px 10px;
+    border: 1px solid rgb(99, 95, 95);
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.view ul:hover{
+    background-color: rgb(233, 231, 229);
+    border: 1px solid black;
+}
+
+
+
+.ship-op{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.free ul li i{
+    margin-right: 10px;
+}
+
+
+.secure ul li i{
+    margin-right: 10px;
+}
+
+
+.easy ul li i{
+    margin-right: 10px;
+}
+
+
+.pic img{
+    width: 600px;
+    height: 600px;
+     margin-top: 50px; 
+    position: relative;
+}
+
+
+.pic ul li{
+    background-color: #0a4db8;
+    color: white;
+    display: inline-block;
+    padding: 20px 25px;
+    border-radius: 100%;
+    position: absolute;
+    top: 275px;
+    right: 150px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.summer img{
+    width: 56px;
+    height: 56px;
+    margin-top: 0px;
+  
+}
+
+.summer {
+    display: inline-block;
+    position: absolute;
+    top: 380px;
+    left: 630px;
+    background-color: white;
+    box-shadow:  1px 2px 7px 0px black;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+.wear img{
+    width: 56px;
+    height: 56px;
+    margin-top: 0px;
+  
+}
+
+.wear{
+    display: inline-block;
+    position: absolute;
+    top: 690px;
+    left: 960px;
+    background-color: white;
+    box-shadow:  1px 2px 7px 0px black;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+.seller h2{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #2d465e;
+  font-weight: lighter;
+}
+
+.seller ul li{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+.card img{
+    width: 100%;
+}
+.card{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: calc(25% - 42px);
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    
+}
+
+.star span i{
+    color: #ffc107;
+    margin-top: 10px;
+}
+
+.card-button ul li{
+    padding: 10px 70px;
+    background-color:#0a4db8;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card span{
+    padding-top: 20px;
+    color: #0559e1;
+    font-weight: bolder;
+  
+}
+
+
+
+.card-jus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-dep{
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-dep h5{
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #2d465e;
+    margin-bottom: 30px;
+
+}
+
+.location ul li{
+    margin-top: 20px;
+}
+
+.call ul li {
+    margin-top: 20px;
+}
+
+.mail ul li{
+    margin-top: 20px; 
+}
+
+.shop{
+    margin-top: 100px;
+}
+
+.shop ul li{
+ margin-top: 20px; 
+}
+
+.Support{
+    margin-top: 100px;
+}
+
+.Support ul li{
+ margin-top: 20px; 
+}
+
+.Company{
+    margin-top: 100px;
+}
+
+.Company ul li{
+ margin-top: 20px; 
+}
+
+.Download{
+    margin-top: 100px;
+}
+.Download ul{
+    margin-top: 20px;
+} 
+
+.store-butoon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-store ul li{
+    background-color: rgb(204, 202, 202);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+}
+.app-store ul li i{
+    color: rgb(26, 25, 25);
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+  .app-store ul li:hover{
+    background-color: #0559e1;
+    color: white;
+   transform:translatey(-5px) ;
+
+  }
+  .app-store ul li:hover i{
+    color: white;
+  }
+
+
+.google-play ul li{
+    background-color: rgb(204, 202, 202);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+
+
+.google-play ul li i{
+    color: rgb(26, 25, 25);
+    padding-right: 10px;
+  
+  }
+  
+  .google-play ul li:hover{
+    background-color: #0559e1;
+    color: white;
+   transform:translatey(-5px) ;
+
+  }
+
+  .google-play ul li:hover i{
+    color: white;
+  }
+
+
+  h4{
+    margin-top: 30px;
+  }
+
+
+  .social-media .media ul  {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+.media ul li{
+    margin-top: 20px;
+    padding: 9px 10px;
+    border-radius: 100%;
+    background-color: rgb(204, 202, 202);
+    transition: 0.5s;
+}
+
+.media ul li:hover{
+    color: white;
+    background-color: #0559e1;
+    transform: rotate(360deg);
+}
+
+.Download span{
+    color: #2d465e;
+    font-weight: bolder;
+}
+
+.shop span{
+    color: #2d465e;
+    font-weight: bolder;
+}
+
+.Support span{
+    color: #2d465e;
+    font-weight: bolder;
+}
+
+.Company span{
+    color: #2d465e;
+    font-weight: bolder;
+}
+
+.shop ul li{
+    transition: all 0.3s ease;
+}
+
+.shop ul li:hover{
+    color: #0559e1;
+    transform:translate(5px);
+    border-bottom: 1px solid  #0559e1;
+    display: inline-block;
+}
+
+
+.Support ul li{
+    transition: all 0.3s ease;
+}
+
+.Support ul li:hover{
+    color: #0559e1;
+    transform:translate(5px);
+    border-bottom: 1px solid  #0559e1;
+    display: inline-block;
+}
+
+.Company ul li{
+    transition: all 0.3s ease;
+}
+
+.Company ul li:hover{
+    color: #0559e1;
+    transform:translate(5px);
+    border-bottom: 1px solid  #0559e1;
+    display: inline-block;
+}
+
+h4{
+    color: #2d465e; 
+}
+

@@ -1,0 +1,233 @@
+
+
+/* <!-- ==================menubar start================= --> */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.w-100{
+    width: 100%;
+
+}
+
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+
+.slide-line{
+    background-color: #3E3735;
+    width: 100%;
+    height: 40px;
+}
+
+.slide-line::after{
+    width: 100%;
+    content: "";
+    background: url("https://sweet-dessert.axiomthemes.com/wp-content/themes/sweet-dessert/images/white_bd_top.png") repeat-x;
+    height: 1em;
+    top: 31px;
+    position: absolute;
+}
+
+
+.menubar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menubar .menu-icon ul li {
+    margin-top: 83px;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: "Poppins", sans-serif;
+    color: #3E3735;
+}
+
+.menubar .menu-icon ul li i{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.menubar .menu-icon ul li:hover{
+    color: #fe6787;
+    cursor: pointer;
+}
+
+
+.menubar .logo-part ul li img{
+    margin-top: 37px;
+}
+
+.menubar .shooping-part ul li i{
+   font-size: 35px;
+   margin-top: 57px;
+   margin-right: 80px;
+   color: #3E3735;
+   border: 1px solid  #3E3735 ;
+   padding: 10px;
+   border-radius: 100%;
+   position: relative;
+}
+
+.menubar .shooping-part .order  ul li{
+    width: 25px;
+    height: 25px;
+    background-color: #fe6787;
+    color: white;
+    display: block;
+    border-radius: 100px;
+    position: absolute;
+    top: 90px;
+    right: 150px;
+    line-height: 25px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 700    ;
+}
+
+.menubar .shooping-part ul li i:hover{
+    color: #fe6787;
+    cursor: pointer;
+}
+
+
+ /* <!-- ==================menubar end================= --> */
+
+
+
+  /* <!-- ======================hero start======================= --> */
+
+
+  .slide-sec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .slide-sec .slide-one ul li img{
+    object-fit: cover;
+  }
+
+   .slide-sec .silde-three ul li img{
+    object-fit: cover;
+  }
+
+  .slide-sec .silde-two ul h1{
+   font-family: "Amatic SC", sans-serif;
+   font-size: 80px;
+   position: absolute;
+    top: 340px;
+    left: 408px;
+    color: white;
+    font-weight: 300;
+  }
+
+  .slide-sec .silde-two ul li{
+    position: relative;
+  }
+
+
+
+   /* <!-- ======================hero end======================= --> */
+
+
+   /* =============================about start============================ */
+
+
+   .about-sec{
+   display: flex;
+   justify-content: space-between;
+   }
+  
+    .about-sec .carry-det h1{
+        margin-left: 45px;
+        margin-bottom: 30px;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 60px;
+        margin-top: 130px;
+        color: #3E3735;
+    } 
+
+    .about-sec .carry-bag img{
+      margin-top: 50px;
+    }
+     
+   .about-sec .carry-det p{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    margin-bottom: 50px;
+   }
+
+   .about-sec .carry-det a{
+    padding: 20px 30px 20px 30px;
+    background-color: #fe6787;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 175px;
+   }
+
+   .about-sec .carry-det a:hover{
+    background-color: #e4365c;
+   }
+
+      .resipe-img{
+        display: flex;
+        justify-content: space-between;
+      }
+
+
+   .resipe .resipe-img{
+    background-image: url("https://sweet-dessert.axiomthemes.com/wp-content/uploads/2016/10/bg_banner2.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    margin-top: 100px;
+    position: relative;
+   }
+
+   .resipe .resipe-img .master h1{
+     text-align: center;
+     margin-left: 55px;
+     margin-top: 50px;
+    font-family: "Amatic SC", sans-serif;
+    color: white ;
+    font-size: 48px;
+    font-weight: 550;
+   }
+
+    .resipe .resipe-img .submit  .email {
+         margin-top: 60px;
+         margin-right: 170px;
+         padding: 20px 80px 20px 30px;
+         border-radius: 50px 50px 50px 50px;
+         border: 1px solid white;
+    }
+
+    .resipe .resipe-img .submit .submit-button{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+
+
+    https://preview.themeforest.net/item/sweet-dessert-sweet-shop-cafe/full_screen_preview/19888037?_ga=2.68814545.1127426169.1747825021-1282715465.1747825021
+
+
+
+
+   
