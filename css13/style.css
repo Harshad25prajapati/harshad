@@ -295,3 +295,159 @@
         margin-right: 20px;
         margin-top: 55px; 
     }
+
+
+    .our-products h1{
+        display: flex;
+        justify-content: center;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 60px;
+        color: #574c44;
+    }
+
+
+    .kiwis-jar{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+     .kiwis-jar .ripe-jar h5{
+        text-align: center;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 35px;
+     }
+
+     .kiwis-jar .ripe-jar h5:hover{
+        color: #e4365c;
+        cursor: pointer;
+     }
+
+     .kiwis-jar .ripe-jar h6{
+        font-size: 18px;
+        text-align: center;
+        color: #B1B0AB;
+        margin-top: 15px;
+        margin-bottom: 50px;
+     }
+
+     .kiwis-jar .ripe-jar span{
+    background-color: #fe6787;
+     padding: 20px 20px 20px 20px;
+     color: white;
+     font-size: 14px;
+     font-family: "Poppins", sans-serif;
+     border-radius: 50px 50px 50px 50px;
+     cursor: pointer;
+     margin-left: 80px;
+     }
+
+     .kiwis-jar .ripe-jar span:hover{
+        background-color: #e4365c;
+     }
+
+       .kiwis-jar .citrus-jar h5{
+        text-align: center;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 35px;
+     }
+
+       .kiwis-jar .citrus-jar h5:hover{
+        color: #e4365c;
+        cursor: pointer;
+     }
+
+       .kiwis-jar .citrus-jar span{
+    background-color: #fe6787;
+     padding: 20px 20px 20px 20px;
+     color: white;
+     font-size: 14px;
+     font-family: "Poppins", sans-serif;
+     border-radius: 50px 50px 50px 50px;
+     cursor: pointer;
+     margin-left: 80px;
+     }
+
+     .kiwis-jar .citrus-jar span:hover{
+        background-color: #e4365c;
+     }
+
+
+       .kiwis-jar .citrus-jar h6{
+        font-size: 18px;
+        text-align: center;
+        color: #B1B0AB;
+        margin-top: 15px;
+        margin-bottom: 50px;
+     }
+
+
+         .kiwis-jar .strawberry-jar h5{
+        text-align: center;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 35px;
+     }
+
+       .kiwis-jar .strawberry-jar h5:hover{
+        color: #e4365c;
+        cursor: pointer;
+     }
+
+       .kiwis-jar .strawberry-jar h6{
+        font-size: 18px;
+        text-align: center;
+        color: #B1B0AB;
+        margin-top: 15px;
+        margin-bottom: 50px;
+     }
+
+    .kiwis-jar .strawberry-jar span{
+    background-color: #fe6787;
+     padding: 20px 20px 20px 20px;
+     color: white;
+     font-size: 14px;
+     font-family: "Poppins", sans-serif;
+     border-radius: 50px 50px 50px 50px;
+     cursor: pointer;
+     margin-left: 80px;
+     }
+
+     .kiwis-jar .strawberry-jar span:hover{
+        background-color: #e4365c;
+     }
+
+     .discount-img{
+        background-image: url("https://sweet-dessert.axiomthemes.com/wp-content/uploads/2016/10/bg_banner.jpg");
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        margin-top: 120px;
+       
+     }
+     
+     .discount-img h3{
+    font-family: "Amatic SC", sans-serif;
+    color: #494644;
+    font-size: 48px;
+    padding-top: 40px;
+    padding-left:150px ;
+    margin-bottom: 30px;
+     }
+
+     .discount-img span{
+        background-color: #fe6787;
+        padding: 20px 35px 20px 35px ;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        color: white;
+        border-radius: 30px 30px 30px 30px;
+        margin-left: 145px;
+     }
+
+      .discount-img span:hover{
+        background-color: #e4365c;
+        cursor: pointer;
+      }
+
+
+      https://preview.themeforest.net/item/sweet-dessert-sweet-shop-cafe/full_screen_preview/19888037?_ga=2.58826605.1337869123.1748228844-1761794363.1748228844
