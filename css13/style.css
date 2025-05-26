@@ -265,3 +265,33 @@
     top: 116px;
     right: 210px;
    }
+
+    .handmade .iner-silder p{
+        text-align: center;
+        color: #706F6F;
+         font-family: "Poppins", sans-serif;
+         margin-right: 50px;
+    }
+
+
+    .cake-png{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cake-png .choco-png img{
+        margin-right: 20px;
+        margin-top: 57px;
+    }
+
+
+    .cake-png .sweet-gift img{
+        margin-right: 20px;
+        margin-top: 67px; 
+    }
+
+    
+    .cake-png .other-png img{
+        margin-right: 20px;
+        margin-top: 55px; 
+    }
