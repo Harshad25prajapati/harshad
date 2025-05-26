@@ -419,7 +419,7 @@
      .discount-img{
         background-image: url("https://sweet-dessert.axiomthemes.com/wp-content/uploads/2016/10/bg_banner.jpg");
         width: 100%;
-        height: 500px;
+        height: 300px;
         background-repeat: no-repeat;
         margin-top: 120px;
        
@@ -449,5 +449,117 @@
         cursor: pointer;
       }
 
+    .client-about{
+        background-image: url("https://sweet-dessert.axiomthemes.com/wp-content/uploads/2016/10/bg2.jpg?id=235");
+        width: 100%;
+        height: 700px;
+        background-repeat: no-repeat;
+    }  
+    
+    .client-about .about-inner{
+       background-image: url("https://sweet-dessert.axiomthemes.com/wp-content/uploads/2016/10/bg_dark.png");
+        width: 900px;
+        height: 700px;
+        background-repeat: no-repeat;
+        margin-left: 260px;
+        object-fit: cover;
+        display: block;
+        position: relative;
+    }
 
-      https://preview.themeforest.net/item/sweet-dessert-sweet-shop-cafe/full_screen_preview/19888037?_ga=2.58826605.1337869123.1748228844-1761794363.1748228844
+
+    .client-about .about-inner h6{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 200px;
+    margin-left: 180px;
+    padding-top: 50px;
+    color: rgb(71, 66, 66);
+    }
+
+    .client-about .about-inner h4{
+    font-family: "Amatic SC", sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 2px; 
+    position: absolute;
+    top: 165px;
+    right: 355px;
+    }
+
+
+    .client-about .about-inner p{
+        text-align: center;
+        color: #706F6F;
+         font-family: "Poppins", sans-serif;
+         margin-right: 90px;
+         margin-top: 20px;
+    }
+
+     .client-about .about-inner img{
+        border-radius: 100%;
+        margin-left: 340px;
+        margin-top: 30px;
+     }
+
+      .client-about .about-inner h5{
+        text-align: center;
+        font-size: 17px;
+          font-family: "Poppins", sans-serif;
+          color: #706F6F;
+          margin-right: 85px;
+          margin-top: 20px;
+      }
+
+
+      .party-sec{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+      }
+
+
+      .party-sec .party-img img{
+        margin-top: 150px;
+      }
+
+      .party-sec .party-dec h5{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 180px;
+        color: rgb(247, 244, 244);
+        margin-top: 190px;
+        letter-spacing: 1px;
+        margin-left: 170px;
+      }
+
+
+        .party-sec .party-dec h6{
+           font-family: "Amatic SC", sans-serif; 
+           font-size: 50px; 
+           position: absolute;
+          top: 300px;
+          left: 186px;
+        }
+
+
+         .party-sec .party-dec p{
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            color: #858585;
+            margin-bottom: 80px;
+         }
+
+         .party-sec .party-dec span{
+            padding: 20px 30px 20px 30px;
+            background-color: #fe6787;
+           font-family: "Poppins", sans-serif;
+           color: white;
+           font-size: 14px;
+           border-radius: 30px;
+           margin-left: 220px;
+         }
+
+         .party-sec .party-dec span:hover{
+            background-color: #e4365c;
+            cursor: pointer;
+         }
