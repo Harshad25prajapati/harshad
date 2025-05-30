@@ -30,7 +30,7 @@
     width: 100%;
     content: "";
     background: url("https://sweet-dessert.axiomthemes.com/wp-content/themes/sweet-dessert/images/white_bd_top.png") repeat-x;
-    height: 1em;
+    height: 10px;
     top: 31px;
     position: absolute;
 }
@@ -196,7 +196,6 @@
     background-repeat: no-repeat;
     object-fit: contain;
     margin-top: 100px;
-    position: relative;
    }
 
    .resipe .resipe-img .master h1{
@@ -211,17 +210,36 @@
 
     .resipe .resipe-img .submit  .email {
          margin-top: 60px;
-         margin-right: 170px;
          padding: 20px 80px 20px 30px;
          border-radius: 50px 50px 50px 50px;
          border: 1px solid white;
     }
 
-    .resipe .resipe-img .submit .submit-button{
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
+   
+
+    .free-master{
+      display: flex;
+      margin-right: 80px;
     }
+     .free-master .submit-button{
+      margin-top: 77px;
+      
+     }
+
+     .free-master .submit-button span{
+      background-color: #fe6787;
+      padding: 18px 30px 18px 30px;
+      border-radius: 50px;
+      color: white; 
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      margin-left: 30px;
+     }
+
+     .free-master .submit-button span:hover{
+      background-color: #e4365c;
+      cursor: pointer;
+     }
 
 
 
@@ -692,4 +710,387 @@
                   margin-left: 240px;
               }
 
-          
+.make-silde  .make-inner .price-png{
+  display: flex;
+  justify-content: center;
+  padding-right: 95px;
+  padding-top: 70px;
+}              
+
+.make-silde  .make-inner h1{
+  font-size: 60px;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding-right: 100px;
+  letter-spacing: 2px;
+}
+
+
+.make-silde  .make-inner p{
+  text-align: center;
+  padding-right: 100px;
+  padding-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #868281;
+}
+
+.make-silde  .make-inner .candy-png{
+  padding-left: 30px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+} 
+
+.make-silde  .make-inner span{
+  background-color: #fe6787;
+  padding: 25px 30px 25px 30px;
+  border-radius: 50px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  margin-left: 315px;
+}
+
+.make-silde  .make-inner span:hover{
+  background-color: #e4365c;
+  cursor: pointer;
+}
+
+
+
+
+.blog .latest-new h1{
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 150px;
+  color: #f1f1f1 
+}
+
+.blog{
+  position: relative;
+}
+
+.blog .latest-new h4{
+  font-family: "Amatic SC", sans-serif;
+  color: #3E3735;
+  font-size: 50px;
+  position: absolute;
+  top: 80px;
+  left: 478px;
+}
+
+
+
+.latest-img{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.latest-img .dark-img h5{
+   font-family: "Amatic SC", sans-serif;
+   font-size: 30px;
+   margin-top: 20px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.latest-img .dark-img h5:hover{
+  color: #e4365c;
+  cursor: pointer;
+}
+
+.latest-img .frech-img h5{
+   font-family: "Amatic SC", sans-serif;
+   font-size: 30px;
+   margin-top: 20px;
+   text-align: center;
+    margin-bottom: 20px;
+}
+.latest-img .frech-img h5:hover{
+  color: #e4365c;
+  cursor: pointer;
+}
+
+
+.latest-img .choose-img h5{
+   font-family: "Amatic SC", sans-serif;
+   font-size: 30px;
+   margin-top: 20px;
+   text-align: center;
+    margin-bottom: 20px;
+}
+
+.latest-img .choose-img h5:hover{
+  color: #e4365c;
+  cursor: pointer;
+}
+
+
+.com-like{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.com-like .comment h6{
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: #8c8c8a;
+  font-weight:300 ;
+}
+
+.com-like .comment h6:hover{
+  color: #e4365c;
+  cursor: pointer;
+}
+
+.com-like .comment h6 i{
+  color: #fe6787;
+  margin-right: 10px;
+}
+
+.com-like .like h4{
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: #8c8c8a;
+  font-weight:300 ;
+}
+
+.com-like .like h4:hover{
+  color: #e4365c;
+  cursor: pointer;
+}
+
+.com-like .like h4 i{
+  color: #fe6787;
+  margin-right: 10px;
+}
+
+
+.latest-img .dark-img span{
+  background-color: #fe6787;
+  padding: 20px 30px 20px 30px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-left: 70px;
+}
+
+.latest-img .dark-img span:hover{
+  background-color: #e4365c;
+  cursor: pointer;
+}
+
+
+.latest-img .frech-img span{
+  background-color: #fe6787;
+  padding: 20px 30px 20px 30px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-left: 70px;
+}
+
+.latest-img .frech-img span:hover{
+  background-color: #e4365c;
+  cursor: pointer;
+}
+
+
+.latest-img .choose-img span{
+  background-color: #fe6787;
+  padding: 20px 30px 20px 30px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-left: 70px;
+}
+
+.latest-img .choose-img span:hover{
+  background-color: #e4365c;
+  cursor: pointer;
+}
+
+
+.subscribe{
+  background-color: #FAF6F3;
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+}
+
+
+.sub-part h1{
+  text-align: center;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 45px;
+  color: #3E3735;
+  padding-top: 100px;
+}
+
+
+.mail-sub{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.mail-sub .mail .email-box{
+ padding: 20px 170px 20px 30px;
+ border-radius: 50px;
+ border: 1px solid black;
+ margin-top: 50px;
+}
+
+
+.mail-sub .submit-button  {
+  background-color: #fe6787;
+  padding: 18px 40px 18px 40px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 48px;
+ margin-left: 40px;
+}
+
+.mail-sub .submit-button:hover{
+  background-color: #e4365c;
+  cursor: pointer;
+}
+
+
+
+/* <!-- ====================footer start================= --> */
+
+
+
+.footer-part{
+  background-color: #3E3735;
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.footer-part::after{
+      width: 100%;
+    content: "";
+    background: url("https://sweet-dessert.axiomthemes.com/wp-content/themes/sweet-dessert/images/bd_img.png") repeat-x;
+    height: 10px;
+    top:-7px;
+    position: absolute;
+}
+
+.footer-part .footer-silde {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.footer-part .footer-silde .opening h5{
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+.footer-part .footer-silde .opening h6{
+  color: #9F9C9B;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+
+.social-icon{
+  display: flex;
+  gap: 15px;
+}
+
+.footer-part .footer-silde .follow-social h5{
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+.footer-part .footer-silde .follow-social .social-icon li{
+  margin-top: 20px;
+  background-color: #fe6787;
+  padding: 8px;
+  border-radius: 100%;
+  color: white;
+}
+
+.footer-part .footer-silde .follow-social .social-icon li:hover{
+  background-color:white;
+  color: #fe6787;
+  cursor: pointer;
+}
+
+.footer-part .footer-silde .call h5{
+    color: white;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+.footer-part .footer-silde .call h6{
+    color: #9F9C9B;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.footer-part .footer-silde .call span{
+ color: #fe6787;
+ margin-left: 10px;
+}
+
+.footer-part .footer-silde .call span:hover{
+ color: #e4365c;
+  cursor: pointer;
+}
+
+
+
+
+.last-part{
+  background-color:#292321;
+  width: 100%;
+  height: 50px;
+}
+
+.last-dec{
+  text-align: center
+}
+
+
+.last-dec h6{
+  color: #93908F;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 15px;
+  letter-spacing: 1px;
+}
+
+.last-dec span{
+  color: #e4365c;
+  margin-right: 10px;
+}
+
+.last-dec span:hover{
+  color: white;
+  cursor: pointer;
+}
