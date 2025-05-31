@@ -330,6 +330,11 @@
         margin-top: 30px;
     }
 
+    .kiwis-jar .ripe-jar img:hover{
+      transform: translate(10px);
+      transition: 1s;
+    }
+
      .kiwis-jar .ripe-jar h5{
         text-align: center;
         font-family: "Amatic SC", sans-serif;
@@ -370,6 +375,11 @@
         font-size: 35px;
      }
 
+      .kiwis-jar .citrus-jar img:hover{
+      transform: translate(10px);
+      transition: 1s;
+    }
+
        .kiwis-jar .citrus-jar h5:hover{
         color: #e4365c;
         cursor: pointer;
@@ -406,10 +416,17 @@
         font-size: 35px;
      }
 
+       .kiwis-jar .strawberry-jar img:hover{
+      transform: translate(10px);
+      transition: 1s;
+    }
+     
+
        .kiwis-jar .strawberry-jar h5:hover{
         color: #e4365c;
         cursor: pointer;
      }
+
 
        .kiwis-jar .strawberry-jar h6{
         font-size: 18px;
@@ -539,7 +556,25 @@
 
       .party-sec .party-img img{
         margin-top: 150px;
+        animation: demo 5s linear infinite ;
+        transform:translatey(-50px) ;
+        transition: 5s;
       }
+
+      @keyframes demo{
+    0%{
+        transform: translatey(-20px);
+    }
+    50%{
+        transform: translatey(0%);
+    }
+    100%{
+        transform: translatey(-20px);
+    }
+    
+}
+
+
 
       .party-sec .party-dec h5{
         font-family: "Amatic SC", sans-serif;
@@ -558,6 +593,7 @@
           top: 300px;
           left: 186px;
         }
+
 
 
          .party-sec .party-dec p{
@@ -1034,6 +1070,11 @@
   background-color:white;
   color: #fe6787;
   cursor: pointer;
+}
+
+.footer-part .footer-silde .follow-social .social-icon li i:hover{
+  transform: rotate(360deg);
+  transition: 1s;
 }
 
 .footer-part .footer-silde .call h5{
