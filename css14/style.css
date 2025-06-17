@@ -226,15 +226,33 @@ position: relative;
 .inner-part img{
     width:100% ;
     height:500px;
-    background-color: #F5EFE0;
+    background-color: #f4e5d1;
     z-index: -1;
     margin-top: -320px;
     position: relative;
 }
 
-.inner-part::before{
-     content: "";
-     width: 100%;
-     height: 200px;
-    background-image: url("https://world5.commonsupport.com/2017/warsaw/images/background/bottom-circular.png");
+
+.about h4{
+  font-family: "Grand Hotel", cursive;
+  font-size: 35px;  
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  position: relative;
+  margin-bottom: 30px;
 }
+
+.about h4::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #5EC79C;
+    position: absolute; 
+    top: 55px;
+    left: 535px; 
+}
+
+
+
